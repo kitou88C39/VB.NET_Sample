@@ -4,7 +4,7 @@ Class ClassName
         intNum1 = 2
         intNum2 = 3
         intAns = intNum1*intNum2
-        System.Console.WriteLine("文字列")
+        System.Console.WriteLine(intAns)
         System.Console.ReadKey()
     End Sub
 End Class
