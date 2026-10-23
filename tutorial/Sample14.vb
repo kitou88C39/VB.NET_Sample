@@ -1,10 +1,14 @@
 Class ServiceClass
-    Public intNum1, intNum2 As Integer
-    Shared Sub SybMethod()
-        System.Console.WriteLine(intNum1 + intNum2)
-End Sub
 
-Public Function FunctionMethod()
-        Return intNum1 * intNum2
-    End Function
+    Private strPvtVar As String
+
+    Public Property PropertyName() As String
+    Get
+        Return strPvtVar
+    End Get
+    Set(Value As String)
+        strPvtVar = Value
+      End Set
+    End Property
+
 End Class
